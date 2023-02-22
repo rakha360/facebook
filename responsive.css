@@ -1,0 +1,88 @@
+
+ 
+ @media only screen and (max-width: 700px) {
+
+     .login_content {
+         flex-direction: column;
+     }
+
+     .login_box {
+         margin-right: 0px;
+         margin-bottom: 15px;
+     }
+ }
+ @media only screen and (max-width: 995px) {
+    .bottom_footer ul{
+        width: 100%;
+    }
+    .bottom_footer ul li{
+        width: 15%;
+      }
+}
+
+
+ @media only screen and (max-width: 830px) {
+     .container {
+         width: 95%;
+     }
+     .nav_content {
+         display: flex;
+         flex-direction: column;
+         align-content: center;
+     }
+
+     .logo_Area {
+         width: 100%;
+         height: 100%;
+         display: flex;
+         justify-content: center;
+         margin-bottom: 10px;
+     }
+
+     .logo_Area a img {
+         display: block;
+         margin: auto;
+     }
+
+     .login_Area {
+         width: 100%;
+         height: 100%;
+         display: flex;
+         justify-content: center;
+     }
+
+     .login_wrapper {
+         display: flex;
+         justify-content: center;
+     }
+
+     .content_Area {
+         flex-direction: column;
+     }
+
+     .mobile_content {
+         width: 100%;
+     }
+
+
+     .signup_Area {
+        width: 100%;
+     }
+    .bottom_footer ul li{
+      width: 20%;
+    }
+ }
+
+ @media only screen and (max-width: 400px) {
+    .bottom_footer ul li{
+        width: 25%;
+      }
+      .birth{
+        flex-direction: column;
+      }
+}
+@media only screen and (max-width: 1226px) and (min-width: 831px)  {
+    .birth{
+        flex-direction: column;
+      }
+}
